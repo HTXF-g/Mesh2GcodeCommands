@@ -13,7 +13,7 @@ with open("goodMesh.txt", "r") as f:
 		Matrix[y] = f.readline().removesuffix("\n").split("\t")
 		print(Matrix[y])
 	
-with open("setUBL-Mesh.gcode", "w", encoding="utf-8") as f:
+with open("OUTPUT_setUBL-Mesh.gcode", "w", encoding="utf-8") as f:
 	for y in range(sizeXY-1,-1,-1):
 		for x in range(sizeXY):
 			#M421 I3 J3 Z0.0000
