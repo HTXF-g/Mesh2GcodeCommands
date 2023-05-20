@@ -6,7 +6,6 @@
 with open("goodMesh.txt", "r") as f:
 	sizeXY = f.read().count("\n")
 
-	# Creates a list containing 5 lists, each of 8 items, all set to 0
 	Matrix = [[0 for x in range(sizeXY)] for y in range(sizeXY)]
 	f.seek(0)
 	for y in range(9,-1,-1):	#2D Array füllen
