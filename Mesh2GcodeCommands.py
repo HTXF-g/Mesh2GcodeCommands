@@ -1,7 +1,6 @@
 #!/bin/python3
 # converts PrintBed Mesh values to Gcode commands 
 
-import re
 
 sizeXY = 0
 with open("goodMesh.txt", "r") as f:
