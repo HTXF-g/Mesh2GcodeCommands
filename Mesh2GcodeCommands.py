@@ -2,7 +2,7 @@
 # converts PrintBed Mesh values to Gcode commands 
 
 
-sizeXY = 0
+
 with open("goodMesh.txt", "r") as f:
 	sizeXY = f.read().count("\n")
 
