@@ -1,0 +1,3 @@
+# Mesh2GcodeCommands
+converts the UBL-Mesh csv output of Marlin2 to Gcode commands.
+Usefull for "uploading" the mesh to the printer after it got wiped by EEPROM init... 
